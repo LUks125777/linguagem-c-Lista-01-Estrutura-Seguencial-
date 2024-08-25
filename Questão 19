@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+int main (){
+	
+	//  Sabe-se que, para iluminar de maneira correta os cômodos 
+	// de uma casa, para cada m2,deve-se usar 18 W de potência.
+	// Faça um programa que receba as duas dimensões de um
+	//  cômodo (em metros), calcule e mostre a sua 
+	//  área (em m2) e a potência de iluminação que deverá 
+	 // ser utilizada. 
+
+	
+	float altura, largura, area, potencia;
+	
+	printf("\t ILUMINACAO \n");
+	printf("Digite a altura em metros: \n");
+	scanf("%f", &altura);
+	printf("Digite a largura em metros: \n");
+	scanf("%f", &largura);
+	
+	area = altura*largura;
+	potencia = area*18;
+	
+	printf("\n");
+	printf("Valor da area: \n");
+	printf("%.2f  m2", area);
+	printf("\n");
+	printf("\n");
+	printf("Potencia de iluminacao: \n");
+	printf("%.2f w\\m2", potencia );
+	
+	
+	
+	
+}
