@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int main (){
+	
+	// 6.Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas. Faça um programa 
+//que receba o salário fixo do funcionário e o valor de suas vendas, calcule e mostre a comissão e seu 
+//salário final. 
+	
+	int salario, vendas, comissaofinal, totalsal, comissao;
+	
+	printf("\t Salario com Comissao \n");
+	printf("\n");
+	printf("Digite o valor do salario: \n");
+	scanf("%i", &salario);
+	printf("Digite o valor das vendas: \n");
+	scanf("%i", &vendas);
+	printf("\n");
+	
+	comissao = vendas * 0.04;
+	comissaofinal = comissao + vendas;
+	
+	totalsal = comissaofinal + salario;
+	
+	
+	printf("Valor da comissao: \n");
+	printf("%d \n", comissaofinal);
+	printf("\n");
+	printf("\n");
+	printf("Valor do salario final: \n");
+	printf("%d \n", totalsal);
+} 
