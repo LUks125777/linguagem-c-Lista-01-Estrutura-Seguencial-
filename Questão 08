@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main (){
+	
+	// 8. Faça um programa que receba o peso de uma pessoa em quilos,
+	// calcule e mostre esse peso em gramas. 
+	
+	float peso, pesoTotal;
+
+	printf("Digite seu peso em Kg : ");
+	scanf("%f", &peso);
+	
+	pesoTotal = peso*1000;
+	
+	printf("\n Seu peso em Gramas: %.2f", pesoTotal);
+	
+	return 0;	
+}
