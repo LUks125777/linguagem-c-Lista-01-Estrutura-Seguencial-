@@ -1,0 +1,25 @@
+	// Faça um programa que receba a medida do ângulo formado por 
+   // uma escada apoiada no chão e a distância em que a escada está da parede, calcule e mostre a medida da escada para que se possa alcançar sua ponta.
+   
+   #include <stdio.h>
+#include <math.h>
+
+int main() {
+    float angulo, distancia, escada;
+    
+    printf("Digite o angulo formado pela escada com o chao (em graus): ");
+    scanf("%f", &angulo);
+    printf("Digite a distancia da base da escada ate a parede (em metros): ");
+    scanf("%f", &distancia);
+    
+    // Converte o ângulo de graus para radianos
+    float angulo_radianos = angulo * M_PI / 180.0;
+    
+    // Calcula o comprimento da escada (hipotenusa)
+    escada = distancia / cos(angulo_radianos);
+    
+    // Mostra o resultado
+    printf("O comprimento da escada necessario para alcancar a ponta e: %.2f metros\n", escada);
+    
+    return 0;
+}
