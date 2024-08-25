@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main(){
+	
+	// Faça um programa que receba
+	// o ano de nascimento de uma pessoa e o ano atual,
+	
+	int anoNascimento, anoAtual, anos, meses, dias, semanas;
+	
+	printf("Digite o seu ano de nascimento: \n");
+	scanf("%i", &anoNascimento);
+	printf("Digite o ano atual: \n");
+	scanf("%i", &anoAtual);
+	
+	anos = anoAtual - anoNascimento;
+	meses = anos*12;
+	dias = meses*30.5;
+	semanas = dias/6;
+	
+	printf("Idade em anos: \n");
+	printf("%i \n", anos);
+	printf("Idade em meses: \n");
+	printf("%i \n", meses);
+	printf("Idade em dias: \n");
+	printf("%i \n", dias);
+	printf("Idade em semana: \n");
+	printf("%i \n", semanas);
+	
+	
+}
