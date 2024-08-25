@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+	
+// Faça um programa que receba o valor do salário mínimo
+// e o valor do salário de um funcionário, calcule e mostre a
+// quantidade de salários mínimos que esse funcionário ganha.
+	
+	float salarioFuncionario, quantidadeSalario;
+	
+	printf("Salario minimo: R$ 1412.00 \n");
+	printf("Digite o salario do funcionario: \n");
+	scanf("%f", &salarioFuncionario);
+	
+	quantidadeSalario = salarioFuncionario/1412;
+	
+	printf("Quantidade de salarios minimo: \n");
+	printf("%.2f", quantidadeSalario);
+	
+	
+}
