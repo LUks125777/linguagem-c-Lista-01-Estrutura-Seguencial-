@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main(){
+	
+	// 5.Faça um programa que receba o preço de um produto, calcule e mostre o novo preço, sabendo-se 
+// que este sofreu um desconto de 10%. formula=  0.1 * produto1 ; resultado - produto1
+
+               float produto1,porcen,descont;
+               
+               printf("\t Desconto \n");
+               printf("\n");
+			   printf("Digite o valor do produto: \n");
+               scanf("%f", &produto1);
+               printf("\n");
+               
+               porcen = 0.1 * produto1;
+               descont = produto1 - porcen;
+               
+               printf("Valor com desconto de 10 porcento: \n");
+               printf("%.2f", descont);
+	
+	
+	
+	
+}
