@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main (){
+	
+	//João recebeu seu salário e precisa pagar duas contas atrasadas. 
+    //	Em razão do atraso, ele deverá pagar multa de 2% sobre cada
+    //	conta. Faça um programa que calcule e mostre quanto restará 
+    // do salário de João.
+	
+float salario, conta1, conta2, contaA, contaB, jurosA, jurosB, salarioRest, jurosTot;
+
+printf("Digite o valor do salario: \n");
+scanf("%f", &salario);
+printf("Digite o valor da conta A : \n");
+scanf("%f", &conta1);
+printf("Digite o valor da conta B : \n");
+scanf("%f", &conta2);
+
+      contaA = conta1 * 0.02;	
+      jurosA = contaA + conta1;
+      contaB = conta2 * 0.02;
+	  jurosB = contaB + conta2;
+	  jurosTot = jurosA + jurosB;
+	  
+	  salarioRest = salario - jurosTot;
+	  
+	
+	  
+	  printf("Salario apos pagamento das contas (com juros): \n");
+	  printf("%.2f", salarioRest);
+	
+	
+	
+	
+	
+	
+}
