@@ -1,0 +1,40 @@
+#include<stdio.h>
+
+int main (){
+	
+	// Faça um programa que calcule
+	// e mostre a tabuada de um número digitado pelo usuário.
+	
+	int numero, mult0, mult1, mult2, mult3, mult4, mult5, mult6, mult7, mult8, mult9, mult10;
+	
+	printf("\t Tabuada digital \n");
+	printf("Digite um numero: \n");
+	scanf("%i", &numero);
+	
+	mult0 = numero*0;
+	mult1 = numero*1;
+	mult2 = numero*2;
+	mult3 = numero*3;
+	mult4 = numero*4;
+	mult5 = numero*5;
+	mult6 = numero*6;
+	mult7 = numero*7;
+	mult8 = numero*8;
+	mult9 = numero*9;
+	mult10 = numero*10;
+	
+	printf("Resultado: \n");
+	printf("%i x 0 = %i\n", numero, mult0);
+	printf("%i x 1 = %i\n", numero, mult1);
+	printf("%i x 2 = %i\n", numero, mult2);
+	printf("%i x 3 = %i\n", numero, mult3);
+	printf("%i x 4 = %i\n", numero, mult4);
+	printf("%i x 5 = %i\n", numero, mult5);
+	printf("%i x 6 = %i\n", numero, mult6);
+	printf("%i x 7 = %i\n", numero, mult7);
+	printf("%i x 8 = %i\n", numero, mult8);
+	printf("%i x 9 = %i\n", numero, mult9);
+	printf("%i x 10 = %i\n", numero, mult10);
+	
+	
+}
