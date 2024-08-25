@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main (){
+	
+	// 2. Faça um programa que receba três números, calcule e mostre a multiplicação desses números. //
+	
+	int numero1,numero2,numero3,multi;
+	
+	printf("\t Multiplicacao \n");
+	printf("\n");
+	printf("Digite o primeiro valor: \n");
+	scanf("%d", &numero1);
+	printf("Digite o segundo valor: \n");
+	scanf("%d", &numero2);
+	printf("Digite o terceiro valor: \n");
+	scanf("%d", &numero3);
+	printf("\n");
+	
+	multi = numero1 * numero2 * numero3;
+	
+	printf("Resuldado da multiplicacao: \n");
+	printf("%d", multi);
+	
+
+	
+}
