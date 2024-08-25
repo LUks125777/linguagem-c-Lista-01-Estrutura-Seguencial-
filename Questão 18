@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main (){
+
+// Faça um programa que receba uma temperatura em Celsius, calcule 
+// e mostre essa temperatura em Fahrenheit. 
+// Sabe-se que F = 180*(C + 32)/100.
+
+float fahrenheit, celsius;
+
+		printf("\t COVERSAO DE CELSIUS PARA FAHRENHEIT \n");
+		printf("Digite a temperatura em Celsius: \n");
+		scanf("%f", &celsius);
+		printf("\n");
+		
+		fahrenheit = (celsius*1.8)+32;
+		
+		printf("Temperatura em Fahrenheit: \n");
+		printf("%.2f", fahrenheit);
+	
+	
+	
+	
+}
+
+
