@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main (){
+
+// a) o comprimento de uma esfera; sabe-se que C = 2 * p R;
+
+   float comprimento, area, area1, areafinal, volume, volume1, volume2,volumefinal, raio;
+   
+    printf ("\t DESCUBRA O COMPRIMENTO DA ESFERA \n");
+    printf("\n");
+	printf("Dado que para pi: 3.14 \n");
+    printf("\n");
+    printf("Digite o valor do raio: \n");
+    scanf("%f", &raio);
+    printf("\n");
+    printf("\n");
+   
+            comprimento = (2*3.14)*raio;
+            area = 4*3.14;
+            area1 = pow(raio,2);
+            areafinal = area * area1;
+            volume = (4*3.14);
+            volume1 = pow(raio,3);
+            volume2 = volume * volume1;
+            volumefinal = volume2 / 3;
+         
+    printf("Volume da esfera: \n");
+    printf("%.2f \n", volumefinal);
+    printf("\n");
+    printf("Valor da area da esfera: \n ");
+    printf("%.2f \n", areafinal);
+    printf("\n");
+    printf("Valor da comprimento da esfera: \n ");
+    printf("%.2f \n", comprimento);
+
+
+}
