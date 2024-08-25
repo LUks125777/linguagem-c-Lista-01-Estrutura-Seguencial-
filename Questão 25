@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+/* 25. Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e 
+mostre: 
+a) a hora digitada convertida em minutos; 
+b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior; 
+c) o total dos minutos convertidos em segundos. */
+
+int main(){
+	int hora, minutos, minutosHora, minutosTotal, segundos;
+	
+	printf("Quantas horas sao? \n " );
+	printf("Hora: ");
+	scanf("%i", &hora);
+	printf("Minutos: ");
+	scanf("%i", &minutos);
+	printf("\n");
+
+	
+	minutosHora = hora*60;
+	minutosTotal = minutos + minutosHora;
+	segundos = minutosTotal *60;
+
+	printf("Hora (em minutos): %i ", minutosHora);
+	printf("\n");
+	printf("Minutos Totais: %i ", minutosTotal);
+	printf("\n");
+	printf("minutos (em segundos): %i ", segundos);
+
+	
+	return 0;
+}
