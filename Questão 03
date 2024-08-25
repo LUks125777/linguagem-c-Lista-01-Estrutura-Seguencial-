@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main (){
+	
+	// 3. Faça um programa que receba dois números, calcule e mostre a divisão do primeiro número pelo 
+//segundo. Sabe-se que o segundo número não pode ser zero, portanto, não é necessário se preocupar
+//com validações. 
+	
+	float numero1 , numero2, divisao;
+	
+	printf("\t Divisao \n");
+	printf("\n");
+	printf("Digite o primeiro valor: \n");
+	scanf("%f", &numero1);
+	printf("Digite o segundo valor: \n");
+	scanf("%f", &numero2);
+	printf("\n");
+	
+	divisao = numero1 / numero2;
+	
+	printf("Resultado da divisao: ");
+	printf("%.2f", divisao);
+	
+
+
+
+	
+	
+	
+}
